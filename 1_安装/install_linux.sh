@@ -1,8 +1,9 @@
 #!/bin/bash
 # 以下载安装2.3.2版本为例
 # 设置IP代理（可选）
-set http_proxy=192.168.0.233:7890
-set https_proxy=192.168.0.233:7890
+ip=xxx
+set http_proxy=$ip
+set https_proxy=$ip
 
 # 同步时间
 timedatectl set-timezone Asia/Shanghai
