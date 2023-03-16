@@ -1,6 +1,15 @@
 # Grafana的使用
 正确安装并启动Grafana后
 打开浏览器，访问端口为3000，打开Grafana控制面板，初始默认账号和密码均为 admin，初次登录需要修改密码。
+## 添加prometheus数据源
+1. 点击datasource
+![datasource](img/1.png)
+2. 配置prometheus连接信息
+正常情况只需要配置接入URL地址即可
+![配置prometheus](img/2.png)
+3. 点击dashboard创建panel查询数据
+![panel](img/3.png)
+
 
 # Centos Grafana安装
 1. 更新yum源
