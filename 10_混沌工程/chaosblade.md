@@ -35,7 +35,8 @@ tar -zxvf chaosblade-1.7.1-linux-amd64.tar.gz
 ./blade create cpu load --cpu-percent 10 --timeout 10;./blade create cpu load --cpu-percent 20 --climb-time 10 --timeout 10
 ...
 ## 内存
-
+见官网
 ## 网络
-
+见官网
 ## 文件IO
+见官网
