@@ -1,6 +1,7 @@
 import requests
 # 可以向prometheus的apiserver拉取数据，url地址是http://prometheus服务地址/api/v1/query?query=promql
 # 如果是范围数据则URL地址是http://prometheus服务地址/api/v1/query_range?query=promql&start=&end=&step=
+# start是开始时间、step是结束时间、step是步长，几个参数单位是秒
 # 查询结果将以json数据的格式返回，其中value有两个值，第一个值是时间戳，第二个值是具体值
 # "value": [ 1678956118.381,"8182.93"]
 # 如下使用requests向prometheus获取node_cpu_seconds_total的代码

@@ -1,7 +1,7 @@
 #!/bin/bash
 # 以下载安装2.3.2版本为例
 # 设置IP代理（可选）
-ip=xxx
+ip=192.168.1.108
 set http_proxy=$ip
 set https_proxy=$ip
 
